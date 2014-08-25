@@ -2,6 +2,7 @@
   "name": "vcl-doc",
   "description": "",
   "version": "0.0.1",
+  "main": "package.json",
   "style": "index.styl",
   "author": {
     "name": "n-fuse Gmbh",
