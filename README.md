@@ -34,7 +34,7 @@ the interface of components at build time) in the future.
 - Relative units like `em` (Elements) are used.
 - Powered by the [rework](https://github.com/reworkcss)
   and [npm](https://www.npmjs.org/) ecosystems.
-- CSS Level 4 features like the
+- CSS level 4 features like the
   [color-function](http://dev.w3.org/csswg/css-color/#modifying-colors).
 
 ## Guidelines for writing Modules
