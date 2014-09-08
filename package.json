@@ -9,11 +9,7 @@
     "email": "info@n-fuse.de",
     "url": "www.n-fuse.de"
   },
-  "scripts": {
-    "test": "node ./node_modules/gulp/bin/gulp server",
-    "dev": "node ./node_modules/gulp/bin/gulp dev"
-  },
-  "contributors" : [
+  "contributors": [
     {
       "name": "Thomas Hoppe",
       "email": "thomas.hoppe@n-fuse.de"
@@ -23,12 +19,9 @@
     "type": "MIT"
   },
   "devDependencies": {
-    "gulp": "^3.8.7",
-    "vcl-build-demo": "git://github.com/vcl/vcl-build-demo",
-    "vcl-default-theme": "git://github.com/vcl/default-theme",
-    "vcl-default-theme-terms": "git://github.com/vcl/default-theme-terms"
   },
-  "dependencies": {},
+  "dependencies": {
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/vcl/doc.git"
