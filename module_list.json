@@ -18,6 +18,7 @@
   {"name":"data-list",                            "description": "Data list",                                    "homepage": "http://vcl.github.io/data-list/demo"},
   {"name":"date-time-picker",                     "description": "Date and time picker",                         "homepage": "http://vcl.github.io/date-time-picker/demo"},
   {"name":"date-picker",                          "description": "Date picker",                                  "homepage": "http://vcl.github.io/data-picker/demo"},
+  {"name":"drawer",                               "description": "Drawer",                                       "homepage": "http://vcl.github.io/drawer/demo"},
   {"name":"dropdown",                             "description": "Dropdown for buttons",                         "homepage": "http://vcl.github.io/dropdown/demo"},
   {"name":"effects",                              "description": "CSS filter based effects",                     "homepage": "http://vcl.github.io/effects/demo"},
   {"name":"embedded-input-button",                "description": "Input with embedded buttons",                  "homepage": "http://vcl.github.io/embedded-input-button/demo"},
@@ -38,6 +39,7 @@
   {"name":"input-group",                          "description": "Input group",                                  "homepage": "http://vcl.github.io/input-group/demo"},
   {"name":"label",                                "description": "Label",                                        "homepage": "http://vcl.github.io/label/demo"},
   {"name":"layer",                                "description": "Layer",                                        "homepage": "http://vcl.github.io/layer/demo"},
+  {"name":"layout",                               "description": "Layout",                                       "homepage": "http://vcl.github.io/layout/demo"},
   {"name":"layout-spans",                         "description": "Layout spans",                                 "homepage": "http://vcl.github.io/layout-spans/demo"},
   {"name":"modal",                                "description": "Modal dialog",                                 "homepage": "http://vcl.github.io/modal/demo"},
   {"name":"list",                                 "description": "List",                                         "homepage": "http://vcl.github.io/list/demo"},
@@ -54,6 +56,7 @@
   {"name":"process-nav",                          "description": "Process navigation",                           "homepage": "http://vcl.github.io/process-nav/demo"},
   {"name":"product-list",                         "description": "Product list",                                 "homepage": "http://vcl.github.io/product-list/demo"},
   {"name":"progress-bar",                         "description": "Progress bar",                                 "homepage": "http://vcl.github.io/progress-bar/demo"},
+  {"name":"size-modulation",                      "description": "Size modulation utils",                        "homepage": "http://vcl.github.io/size-modulation/demo"},
   {"name":"slider",                               "description": "Slider",                                       "homepage": "http://vcl.github.io/slider/demo"},
   {"name":"spinner",                              "description": "Spinner",                                      "homepage": "http://vcl.github.io/spinner/demo"},
   {"name":"sum-table",                            "description": "Sum table",                                    "homepage": "http://vcl.github.io/sum-table/demo"},
@@ -70,6 +73,5 @@
   {"name":"typography",                           "description": "Basic text formatting",                        "homepage": "http://vcl.github.io/typography/demo"},
   {"name":"utils",                                "description": "Utility classes for floats and alignment",     "homepage": "http://vcl.github.io/utils/demo"},
   {"name":"vertical-button-group",                "description": "Stacked buttons",                              "homepage": "http://vcl.github.io/vertical-button-group/demo"},
-  {"name":"zoom-box",                             "description": "Zoom image portions",                          "homepage": "http://vcl.github.io/zoom-box/demo"},
-  {"name":"size-modulation",                      "description": "Size modulation utils",                        "homepage": "http://vcl.github.io/size-modulation/demo"}
+  {"name":"zoom-box",                             "description": "Zoom image portions",                          "homepage": "http://vcl.github.io/zoom-box/demo"}
 ]
