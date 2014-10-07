@@ -40,7 +40,6 @@
   {"name":"label",                                "description": "Label",                                        "homepage": "http://vcl.github.io/label/demo"},
   {"name":"layer",                                "description": "Layer",                                        "homepage": "http://vcl.github.io/layer/demo"},
   {"name":"layout",                               "description": "Layout",                                       "homepage": "http://vcl.github.io/layout/demo"},
-  {"name":"layout-spans",                         "description": "Layout spans",                                 "homepage": "http://vcl.github.io/layout-spans/demo"},
   {"name":"modal",                                "description": "Modal dialog",                                 "homepage": "http://vcl.github.io/modal/demo"},
   {"name":"list",                                 "description": "List",                                         "homepage": "http://vcl.github.io/list/demo"},
   {"name":"loading-layer",                        "description": "Loading layer",                                "homepage": "http://vcl.github.io/loading-layer/demo"},
