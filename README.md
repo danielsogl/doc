@@ -1,9 +1,7 @@
 # Visual Component Library
 
-Extensible, responsive CSS toolkit based on
-[OOCSS](https://github.com/stubbornella/oocss/wiki)
-principles for now – the time of component-based web
-application development.
+Modular and extensible CSS library for Web development today and tomorrow –
+the era of component-based Web application development.
 
 VCL components can be used selectively and will pull in
 dependent modules as required.
@@ -41,7 +39,7 @@ the interface of components at build time) in the future.
 
 ### Layout
 
-- Just see [vcl-list](https://github.com/vcl/list) as a prototype
+Just see [vcl-list](https://github.com/vcl/list) as a prototype.
 
 ### package.json
 
@@ -66,17 +64,22 @@ structure.
 
 ### CSS Style
 
+- No IDs as selectors.
 - Avoid the descendant selector with elements (i. e. don’t use `.vclComponent h3`).
-- Avoid IDs as selectors.
 - Avoid attaching classes to elements in your CSS (i. e. don’t do `div.header` or `h1.title`).
 - Except in some rare cases, avoid using `!important`.
 - Use relative units like `em` or `rem`.
-- You should use the `vcl` name space prefix for any class.
-- You should put class names in camelCased letters.
+
+### CSS Naming Conventions
+
+- `vcl` name space prefix for any class.
+- Class names in camelCased letters.
+- Modifiers: `vclComponentName--modifierName`.
+- Descendents: `vclComponentName--descendentName`.
 
 ### CSS Features
 
-- Use flexbox based layouts when sensible.
+- Use the [flexbox based layout attributes](https://github.com/vcl/layout) to lay out stuff.
 - Stick to the browser compatibility list below.
 
 ### HTML Sample Snippets
@@ -92,7 +95,7 @@ TODO
 
 - Firefox,
 - Safari 6+,
-- Internet Explorer 9+,
+- Internet Explorer 10+,
 - Reasonably recent Webkit engines and derivatives like Blink.
 
 ## Related Tools

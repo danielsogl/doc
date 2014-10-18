@@ -45,7 +45,7 @@
   {"name":"loading-layer",                        "description": "Loading layer",                                "homepage": "http://vcl.github.io/loading-layer/demo"},
   {"name":"loose-button-group",                   "description": "Loose button group",                           "homepage": "http://vcl.github.io/loose-button-group/demo"},
   {"name":"notification",                         "description": "Notification",                                 "homepage": "http://vcl.github.io/notification/demo"},
-  {"name":"page-transitions",                     "description": "Page transitions",                             "homepage": "http://vcl.github.io/page-transitions/demo"},
+  {"name":"transitions",                          "description": "Transitions",                                  "homepage": "http://vcl.github.io/transitions/demo"},
   {"name":"pager",                                "description": "Pager",                                        "homepage": "http://vcl.github.io/pager/demo"},
   {"name":"pagination",                           "description": "Pagination",                                   "homepage": "http://vcl.github.io/pagination/demo"},
   {"name":"panel",                                "description": "Panel",                                        "homepage": "http://vcl.github.io/panel/demo"},
