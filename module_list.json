@@ -22,7 +22,6 @@
   {"name":"dropdown",                             "description": "Dropdown for buttons",                         "homepage": "http://vcl.github.io/dropdown/demo"},
   {"name":"effects",                              "description": "CSS filter based effects",                     "homepage": "http://vcl.github.io/effects/demo"},
   {"name":"embedded-input-button",                "description": "Input with embedded buttons",                  "homepage": "http://vcl.github.io/embedded-input-button/demo"},
-  {"name":"extended-select",                      "description": "Extended select – a combobox replacement",     "homepage": "http://vcl.github.io/extended-select/demo"},
   {"name":"favicon",                              "description": "Favicon",                                      "homepage": "http://vcl.github.io/favicon/demo"},
   {"name":"fieldset",                             "description": "Fieldset",                                     "homepage": "http://vcl.github.io/fieldset/demo"},
   {"name":"figure",                               "description": "Figure – image plus caption",                  "homepage": "http://vcl.github.io/figure/demo"},
