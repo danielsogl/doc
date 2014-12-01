@@ -21,19 +21,22 @@ the interface of components at build time) in the future.
 
 ## Features
 
-- Compatible with the set of browsers you specify.
+- Built with [Web Components](http://webcomponents.org/) in mind.
+- App framework agnostic -- use it with Ember, Angular, you name it.
+- For ambitious mobile and desktop applications.
 - Complete [set of modules](https://github.com/vcl)
   to handle the bulk of styling needs.
-- Customizable through variables.
+- Customizable through ~500 variables.
 - Extensible through own modules.
 - As lightweight as you want through modularization.
 - Performant through simple, low specificity selectors.
 - Maintainable & readable code with unabstracted, obvious naming conventions.
-- Relative units like `em` (Elements) are used.
+- Relative units like `em` (Elements) are used wherever possible.
 - Powered by the [rework](https://github.com/reworkcss)
   and [npm](https://www.npmjs.org/) ecosystems.
 - CSS level 4 features like the
   [color-function](http://dev.w3.org/csswg/css-color/#modifying-colors).
+- Browsers compatibility is delegated to [Autoprefixer](https://github.com/postcss/autoprefixer).
 
 ## Guidelines for writing Modules
 
@@ -96,7 +99,7 @@ TODO
 - Firefox,
 - Safari 6+,
 - Internet Explorer 10+,
-- Reasonably recent Webkit engines and derivatives like Blink.
+- Reasonably recent Webkit/ Blink engines and derivatives.
 
 ## Related Tools
 
