@@ -16,6 +16,7 @@
   {"name":"coarse-pointer",                       "description": "Coarse pointer utils and optimizations",       "homepage": "http://vcl.github.io/coarse-pointer/demo"},
   {"name":"container",                            "description": "Container",                                    "homepage": "http://vcl.github.io/container/demo"},
   {"name":"data-list",                            "description": "Data list",                                    "homepage": "http://vcl.github.io/data-list/demo"},
+  {"name":"calendar",                             "description": "Calendar",                                     "homepage": "http://vcl.github.io/calendar/demo"},
   {"name":"date-time-picker",                     "description": "Date and time picker",                         "homepage": "http://vcl.github.io/date-time-picker/demo"},
   {"name":"date-picker",                          "description": "Date picker",                                  "homepage": "http://vcl.github.io/data-picker/demo"},
   {"name":"drawer",                               "description": "Drawer",                                       "homepage": "http://vcl.github.io/drawer/demo"},
