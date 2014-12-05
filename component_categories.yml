@@ -15,6 +15,7 @@
     Badges
 3 Areas
     App area
+    App content area
     App header
     Content area
     App footer
@@ -49,6 +50,7 @@
     Input Group
     Embedded Input Button
     Extended Select
+    Date Picker
     Time Picker
     Date Time Picker
     Spinner
@@ -64,11 +66,12 @@
     Groups
     Group
     Vertical Group
-    Loose
+    Loose Group
 9 Tabular Data
     Tables
     Data List
     Responsive Table
+    Data Grid
     Calendar
     Product List
 10 Overlays
