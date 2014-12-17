@@ -72,6 +72,7 @@ In this tutorial we will build a demo for vcl-gallery. It should already be inst
 if you did the previous tutorial. If not, run:
 ```
 npm install git://github.com/vcl/gallery.git
+```
 
 0.  Switch to the directory of the component, you want to build. For this exampe switch to either
     ../tutorial/node_modules/vcl-include-all-modules/node_modules/vcl-gallery/
