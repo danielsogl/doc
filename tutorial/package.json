@@ -1,0 +1,10 @@
+{
+  "name": "vcl-tutorial",
+  "description": "An example of VCL dist",
+  "dependencies": {
+    "vcl-preprocessor": "git://github.com/vcl/preprocessor.git",
+    "vcl-default-theme": "git://github.com/vcl/default-theme.git",
+    "vcl-font-awesome": "git://github.com/vcl/font-awesome.git",
+    "vcl-include-all-modules": "git://github.com/vcl/include-all-modules.git"
+  }
+}
