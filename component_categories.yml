@@ -31,10 +31,10 @@
     Pagination
     Breadcrump
     Tab
-    Horizontal
-    Tree
+    Navigation
     Process
     Go to Top
+    Tree
 6 Forms
     Vertical
     Horizontal
@@ -62,15 +62,13 @@
     Icons
     States
     Tags
-    Dropdown
-    Groups
     Group
     Vertical Group
     Loose Group
 9 Tabular Data
     Tables
-    Data List
     Responsive Table
+    Data List
     Data Grid
     Calendar
     Product List
@@ -79,7 +77,7 @@
     Popover
     Layer
     Loading Layer
-    Modal
+    Dropdown
     Info Overlay
 11 Status Information
     Notification
