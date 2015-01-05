@@ -52,7 +52,6 @@
     Extended Select
     Date Picker
     Time Picker
-    Date Time Picker
     Spinner
     Slider
     Flip Switch
@@ -98,6 +97,8 @@
     Size Modulation
     Break Points
 14 Icons
+    Icon
+    Icogram
     Favicon
     Font Awesome
 15 Optimizations
@@ -109,4 +110,3 @@
     Default
     BW
 19 Advanced Text Structure
-

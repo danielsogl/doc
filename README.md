@@ -21,22 +21,23 @@ the interface of components at build time) in the future.
 
 ## Features
 
-- Built with [Web Components](http://webcomponents.org/) in mind.
-- App framework agnostic -- use it with Ember, Angular, you name it.
+- Designed to style [Web Components](http://webcomponents.org/).
+- JS framework agnostic -- use it with Ember, Angular, you name it.
 - For ambitious mobile and desktop applications.
 - Complete [set of modules](https://github.com/vcl)
   to handle the bulk of styling needs.
 - Customizable through ~500 variables.
-- Extensible through own modules.
-- As lightweight as you want through modularization.
+- Extensible through custom modules.
+- As lightweight as you want -- include only what you need.
 - Performant through simple, low specificity selectors.
 - Maintainable & readable code with unabstracted, obvious naming conventions.
-- Relative units like `em` (Elements) are used wherever possible.
+- Relative units like `em` (Elements) are used wherever feasible.
 - Powered by the [rework](https://github.com/reworkcss)
   and [npm](https://www.npmjs.org/) ecosystems.
 - CSS level 4 features like the
   [color-function](http://dev.w3.org/csswg/css-color/#modifying-colors).
-- Browsers compatibility is delegated to [Autoprefixer](https://github.com/postcss/autoprefixer).
+- Browsers compatibility is delegated to
+  [Autoprefixer](https://github.com/postcss/autoprefixer).
 
 ## Guidelines for writing Modules
 
@@ -67,22 +68,25 @@ structure.
 
 ### CSS Style
 
-- No IDs as selectors.
-- Avoid the descendant selector with elements (i. e. don’t use `.vclComponent h3`).
-- Avoid attaching classes to elements in your CSS (i. e. don’t do `div.header` or `h1.title`).
+- No IDs in selectors.
+- Avoid attaching classes to elements in your CSS
+  (i. e. don’t do `div.header` or `h1.title`).
+- Except in rare cases, avoid the descendant selector with elements
+  (i. e. don’t use `.vclComponent h3`).
 - Except in some rare cases, avoid using `!important`.
 - Use relative units like `em` or `rem`.
 
 ### CSS Naming Conventions
 
 - `vcl` name space prefix for any class.
-- Class names in camelCased letters.
-- Modifiers: `vclComponentName--modifierName`.
-- Descendents: `vclComponentName--descendentName`.
+- Class names in camelCased letters (why? because, why not?).
+- Modifiers: `vclModifierName`.
+- Descendents: `vclDescendentName`.
 
 ### CSS Features
 
-- Use the [flexbox based layout attributes](https://github.com/vcl/layout) to lay out stuff.
+- Use the [flexbox based layout attributes](https://github.com/vcl/layout)
+  to lay out stuff.
 - Stick to the browser compatibility list below.
 
 ### HTML Sample Snippets
@@ -96,7 +100,12 @@ TODO
 
 ## Browser Compatibility
 
-- Firefox,
+Compatibility depends on each module and the use of the
+[Autoprefixer](https://github.com/postcss/autoprefixer).
+
+In general, at least the following should be supported and tested:
+
+- Reasonably recent Firefox builds,
 - Safari 6+,
 - Internet Explorer 10+,
 - Reasonably recent Webkit/ Blink engines and derivatives.
