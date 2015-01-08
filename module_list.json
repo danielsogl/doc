@@ -42,7 +42,7 @@
   {"name":"info-overlay",                         "description": "Info overlay",                                 "homepage": "http://vcl.github.io/info-overlay/demo"},
   {"name":"input",                                "description": "Standard HTML input controls",                 "homepage": "http://vcl.github.io/input/demo"},
   {"name":"checkbox",                             "description": "Checkbox form control",                        "homepage": "http://vcl.github.io/checkbox/demo"},
-  {"name":"radio-button,                          "description": "Radio button form control",                    "homepage": "http://vcl.github.io/radio-button/demo"},
+  {"name":"radio-button",                         "description": "Radio button form control",                    "homepage": "http://vcl.github.io/radio-button/demo"},
   {"name":"input-group",                          "description": "Input group",                                  "homepage": "http://vcl.github.io/input-group/demo"},
   {"name":"label",                                "description": "Label",                                        "homepage": "http://vcl.github.io/label/demo"},
   {"name":"layer",                                "description": "Layer",                                        "homepage": "http://vcl.github.io/layer/demo"},
