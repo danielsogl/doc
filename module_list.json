@@ -2,6 +2,7 @@
   {"name":"default-theme-terms",                  "description": "Default theme terms",                          "homepage": "http://vcl.github.io/default-theme-terms/demo"},
   {"name":"default-theme",                        "description": "Default theme",                                "homepage": "http://vcl.github.io/default-theme/demo"},
   {"name":"bw-theme",                             "description": "Black/ white theme",                           "homepage": "http://vcl.github.io/bw-theme/demo"},
+  {"name":"restore-theme",                        "description": "Restore theme",                                "homepage": "http://vcl.github.io/restore-theme/demo"},
   {"name":"include-all-modules",                  "description": "Include all modules",                          "homepage": "http://vcl.github.io/include-all-modules/demo"},
   {"name":"app-area",                             "description": "App area",                                     "homepage": "http://vcl.github.io/app-area/demo"},
   {"name":"app-content-area",                     "description": "App content area",                             "homepage": "http://vcl.github.io/app-content-area/demo"},
