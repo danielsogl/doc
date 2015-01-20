@@ -19,6 +19,10 @@ You can use it productively already if you are comfortable
 with changing some variable names (which can be concerned as
 the interface of components at build time) in the future.
 
+## Getting Started
+
+See [Tutorial](https://github.com/vcl/doc/tree/master/tutorial)
+
 ## Features
 
 - Designed to style [Web Components](http://webcomponents.org/).
