@@ -26,18 +26,18 @@ See [Tutorial](https://github.com/vcl/doc/tree/master/tutorial)
 ## Features
 
 - Designed to style [Web Components](http://webcomponents.org/).
-- JS framework agnostic -- use it with Ember, Angular, you name it.
+- JS framework agnostic ‒ use it with Ember, Angular, you name it.
 - For ambitious mobile and desktop applications.
 - Complete [set of modules](https://github.com/vcl)
   to handle the bulk of styling needs.
 - Customizable through ~500 variables.
 - Extensible through custom modules.
-- As lightweight as you want -- include only what you need.
-- Performant through simple, low specificity selectors.
+- As lightweight as you want ‒ include only what you need.
+- Quick rendering through simple, low specificity selectors.
 - Maintainable & readable code with unabstracted, obvious naming conventions.
 - Relative units like `em` (Elements) are used wherever feasible.
 - Powered by the [rework](https://github.com/reworkcss)
-  and [npm](https://www.npmjs.org/) ecosystems.
+  and [npm](https://www.npmjs.org/) eco systems.
 - CSS level 4 features like the
   [color-function](http://dev.w3.org/csswg/css-color/#modifying-colors).
 - Browsers compatibility is delegated to
@@ -51,6 +51,9 @@ Just see [vcl-list](https://github.com/vcl/list) as a prototype.
 
 ### package.json
 
+Have an `index.styl` or `index.css` file per module which is referenced in
+the `package.json` in the `style` property.
+
 Have the following custom fields in the package.json file:
 
 - `style` points to the entry CSS file of the module.
@@ -61,37 +64,42 @@ Have the following custom fields in the package.json file:
 - `vcldoc.subCategoryPrio` the priority from 1..100 of this sub category.
 
 The categorization is used for the documentation generator
-[vcldoc](https://github.com/vcl/vcldoc) to generate a menu
-structure.
+[doc-gen](https://github.com/vcl/doc-gen) to generate a static documentation
+including samples of your modules.
 
-### CSS Code
+### CSS Syntax
 
-- Use the [white space significant syntax](https://www.npmjs.org/package/css-whitespace) or plain CSS.
-- Normal CSS files end with the `.css` suffix, white space files end with the `.styl` suffix.
-- Have an `index.styl` or `index.css` file per module which is referenced in the `package.json` in the `style` property.
+Use the [white space significant syntax](https://www.npmjs.org/package/css-whitespace)
+or plain CSS. Normal CSS files end with the `.css` suffix, white space files
+end with the `.styl` suffix.
 
-### CSS Style
+### Selectors, Naming and Rules
 
-- No IDs in selectors.
-- Avoid attaching classes to elements in your CSS
-  (i. e. don’t do `div.header` or `h1.title`).
-- Except in rare cases, avoid the descendant selector with elements
-  (i. e. don’t use `.vclComponent h3`).
-- Except in some rare cases, avoid using `!important`.
-- Use relative units like `em` or `rem`.
+Do’s:
 
-### CSS Naming Conventions
-
-- `vcl` name space prefix for any class.
+- `vcl` name space prefix for any class name.
 - Class names in camelCased letters (why? because, why not?).
-- Modifiers: `vclModifierName`.
-- Descendents: `vclDescendentName`.
+- Have a single class name like `vclFlipSwitch` on the root element of the
+  corresponding HTML.
+- Use relative units like `em`, `rem` etc.
+- Descendents names: Apply the same naimg conventions; i. e.
+  `vclDescendentName`.
+- Modifier names: `vclModifierName`.
 
-### CSS Features
+Don’ts:
 
-- Use the [flexbox based layout attributes](https://github.com/vcl/layout)
-  to lay out stuff.
-- Stick to the browser compatibility list below.
+- No element ID based selectors.
+- Avoid element name bound selectors;
+  i. e. don’t do `div.header` or `h1.title`.
+- Except in rare cases, avoid the descendant selector with elements;
+  i. e. don’t use `.vclComponent h3`.
+- Except in some very rare cases, avoid using `!important`.
+- Don't use vendor prefixes.
+
+### Usable CSS Features
+
+Use the [flexbox based layout attributes](https://github.com/vcl/layout)
+to lay out stuff.
 
 ### HTML Sample Snippets
 
