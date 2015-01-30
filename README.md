@@ -104,7 +104,7 @@ to lay out stuff.
 ### HTML Sample Snippets
 
 - Have a folder `demo` containing a file `example.html` and optionally more snippets.
-- Snippet file mist be HTML fragments without head and body tags.
+- Snippet file must be HTML fragments without head and body tags.
 
 ## Demo
 
