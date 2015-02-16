@@ -78,13 +78,16 @@ end with the `.styl` suffix.
 Do’s:
 
 - `vcl` name space prefix for any class name.
-- Class names in camelCased letters (why? because, why not?).
+- Class names in camelCased letters (why? because it's easier to read and
+  shorter than dashes).
 - Have a single class name like `vclFlipSwitch` on the root element of the
   corresponding HTML.
 - Use relative units like `em`, `rem` etc.
-- Descendents names: Apply the same naimg conventions; i. e.
-  `vclDescendentName`.
+- Descendants names: Apply the same naming conventions; i. e.
+  `vclDescendantName`.
 - Modifier names: `vclModifierName`.
+- In order to prevent class name collisions for descendants and modifiers,
+  use an abbreviation of the component’s name, e. g. `vclFSModifier`.
 
 Don’ts:
 
@@ -108,7 +111,7 @@ to lay out stuff.
 
 ## Demo
 
-TODO
+For every module, you can do an `npm install` and `npm test` to see it.
 
 ## Browser Compatibility
 
