@@ -73,6 +73,7 @@
   {"name": "table",                                "description": "Table",                                               "homepage": "http://vcl.github.io/table/demo"},
   {"name": "table-extras",                         "description": "Table extras",                                        "homepage": "http://vcl.github.io/table-extras/demo"},
   {"name": "token",                                "description": "Token",                                               "homepage": "http://vcl.github.io/token/demo"},
+  {"name": "token-input",                          "description": "Token input",                                         "homepage": "http://vcl.github.io/token-input/demo"},
   {"name": "responsive-table",                     "description": "Responsive table",                                    "homepage": "http://vcl.github.io/responsive-table/demo"},
   {"name": "responsive-image",                     "description": "Responsive image",                                    "homepage": "http://vcl.github.io/responsive-image/demo"},
   {"name": "image-shapes",                         "description": "Image shapes",                                        "homepage": "http://vcl.github.io/image-shapes/demo"},
