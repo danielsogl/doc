@@ -5,6 +5,6 @@
     "vcl-preprocessor": "git://github.com/vcl/preprocessor.git",
     "vcl-default-theme": "git://github.com/vcl/default-theme.git",
     "vcl-font-awesome": "git://github.com/vcl/font-awesome.git",
-    "vcl-include-all-modules": "git://github.com/vcl/include-all-modules.git"
+    "vcl-core-modules": "git://github.com/vcl/core-modules.git"
   }
 }
