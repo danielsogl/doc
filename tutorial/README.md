@@ -75,7 +75,7 @@ npm install git://github.com/vcl/gallery.git
 ```
 
 0.  Switch to the directory of the component, you want to build. For this exampe switch to either
-    ../tutorial/node_modules/vcl-include-all-modules/node_modules/vcl-gallery/
+    ../tutorial/node_modules/vcl-core-modules/node_modules/vcl-gallery/
     or
     ../tutorial/node_modules/vcl-gallery
     
