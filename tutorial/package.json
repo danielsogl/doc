@@ -4,6 +4,7 @@
   "dependencies": {
     "vcl-preprocessor": "git://github.com/vcl/preprocessor.git",
     "vcl-default-theme": "git://github.com/vcl/default-theme.git",
+    "vcl-default-theme-terms": "git://github.com/vcl/default-theme-terms.git",
     "vcl-font-awesome": "git://github.com/vcl/font-awesome.git",
     "vcl-core-modules": "git://github.com/vcl/core-modules.git"
   }
