@@ -80,6 +80,5 @@
   {"name": "tooltip",                              "description": "Tooltip",                                             "homepage": "http://vcl.github.io/tooltip/demo"},
   {"name": "typography",                           "description": "Basic text formatting",                               "homepage": "http://vcl.github.io/typography/demo"},
   {"name": "utils",                                "description": "Utility classes for floats and alignment",            "homepage": "http://vcl.github.io/utils/demo"},
-  {"name": "vertical-button-group",                "description": "Stacked buttons",                                     "homepage": "http://vcl.github.io/vertical-button-group/demo"},
   {"name": "zoom-box",                             "description": "Zoom image portions",                                 "homepage": "http://vcl.github.io/zoom-box/demo"}
 ]
