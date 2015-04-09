@@ -109,9 +109,12 @@ to lay out stuff.
 - Have a folder `demo` containing a file `example.html` and optionally more snippets.
 - Snippet file must be HTML fragments without head and body tags.
 
-## Demo
+### Development
 
-For every module, you can do an `npm install` and `npm test` to see it.
+The following npm scripts are available:
+
+* `npm start` - starts a webserver and opens the examples (auto-reloads)
+* `npm test` - tries to preprocess this package
 
 ## Browser Compatibility
 
