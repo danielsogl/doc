@@ -1,116 +1,54 @@
 1 Layout
-    Grid
-    Layout
 2 Typography
     Font Face
     Headings
     Anchors
-    Lists
     Semantical Text Tags
     Preformatted Text
     Code
     Blockquote
     Address
-    Labels
-    Badges
+
 3 Areas
-    App area
-    App content area
-    App header
     Content area
-    App footer
-    Drawer
-4 Containers
-    Container
-    Panel
-    Toolbar
-    Fieldset
-    Callout
+
 5 Navigations
-    Pager
-    Pagination
-    Breadcrump
-    Tab
-    Navigation
-    Process
-    Go to Top
     Tree
 6 Forms
     Vertical
     Horizontal
     Inline
 7 Form Controls
-    Basic Inputs
     Simple
     Textarea
-    Radio Buttons
-    Checkboxes
     Selects
-    Form Control Label
-    Input Group
-    Embedded Input Button
     Extended Select
-    Date Picker
     Time Picker
-    Spinner
-    Slider
-    Flip Switch
-    Stars
-    Token
+
+
 8 Buttons
-    Button
     Variants
-    Icons
     States
     Tags
-    Group
-    Vertical Group
-    Loose Group
+
 9 Tabular Data
-    Tables
-    Responsive Table
-    Data List
-    Data Grid
-    Calendar
-    Product List
+
 10 Overlays
-    Tooltip
-    Popover
-    Layer
-    Loading Layer
-    Dropdown
-    Info Overlay
+
 11 Status Information
-    Notification
-    Busy Indicator
-    Progress Bar
+
 12 Media
-    Responsive Image
-    Figure
-    Image Shapes
-    Gallery
-    Zoom Box
+
 13 Utilities
     Float related
     Inline Alignment
     Box Model
     Overflowing Text
-    Size Modulation
-    Break Points
+
 14 Icons
-    Icon
-    Icogram
-    Favicon
-    Font Awesome
-    Material Design Icons
+
 15 Optimizations
-    Print
-    Coarse Pointer
 16 Effects
 17 Transitions
 18 Themes
-    Default
-    BW
-    Restore
-19 Advanced Text Structure
 20 E-Mail
