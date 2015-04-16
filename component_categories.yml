@@ -1,54 +1,19 @@
 1 Layout
 2 Typography
-    Font Face
-    Headings
-    Anchors
-    Semantical Text Tags
-    Preformatted Text
-    Code
-    Blockquote
-    Address
-
 3 Areas
-    Content area
-
 5 Navigations
-    Tree
 6 Forms
-    Vertical
-    Horizontal
-    Inline
 7 Form Controls
-    Simple
-    Textarea
-    Selects
-    Extended Select
-    Time Picker
-
-
 8 Buttons
-    Variants
-    States
-    Tags
-
 9 Tabular Data
-
 10 Overlays
-
 11 Status Information
-
 12 Media
-
 13 Utilities
-    Float related
-    Inline Alignment
-    Box Model
-    Overflowing Text
-
 14 Icons
-
 15 Optimizations
 16 Effects
 17 Transitions
 18 Themes
+19 Advanced Text Structure
 20 E-Mail
