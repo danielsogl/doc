@@ -9,12 +9,12 @@ Plus how to run a single component demo.
 
 Based on [a blog](http://blog.alex-rudenko.com/2014/08/18/getting-started-with-a-new-css-framework-called-visual-component-library-vcl/)
 
-0.  You will need a current version of node.JS and NPM installed
-    because all VCL modules are managed through NPM.
+0.  You will need a current version of node.JS and npm installed
+    because all VCL modules are managed through npm.
 
-1.  Clone the doc repo from Github.
+1.  Clone the doc repo from Github and navigate to the `tutorial` directory.
 
-    `$ git clone https://github.com/vcl/doc.git`
+    `$ git clone https://github.com/vcl/doc.git && cd doc/tutorial`
 
 2. As you can see the folder contains several files and a folder:
   * `package.json` for this tutorial containing references to all needed VCL modules.
@@ -28,7 +28,7 @@ Based on [a blog](http://blog.alex-rudenko.com/2014/08/18/getting-started-with-a
 
 4.  From the tutorial folder run the VCL preporcessor to build your VCL distro:
 
-    `node ./node_modules/vcl-preprocessor/bin/vcl.js index.styl vcl.css`
+    `node ./node_modules/.bin/vcl index.styl vcl.css`
 
     You should see "✔ Succesfully compiled input to vcl.css" in the terminal if everything is fine.
 
