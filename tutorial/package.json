@@ -1,6 +1,6 @@
 {
   "name": "vcl-tutorial",
-  "description": "An example of VCL dist",
+  "description": "VCL distribution based on the core modules",
   "dependencies": {
     "vcl-preprocessor": "git://github.com/vcl/preprocessor.git",
     "vcl-default-theme": "git://github.com/vcl/default-theme.git",

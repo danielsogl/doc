@@ -5,32 +5,36 @@ the era of component-based Web application development.
 
 VCL components can be used selectively and will pull in
 dependent modules as required.
-There is quite a range of [existing modules](https://github.com/vcl/)
-which as a whole should roughly match what Bootstrap offers.
+There is quite a range of [existing modules](https://github.com/vcl/).
+The collection of
+[core modules](https://github.com/vcl/core-modules)
+roughly provide what Bootstrap offers.
 There are very generic, highly reusable styles such as
-a typography module and rather specific ones like a product list.
-Own components can easily be created as NPM modules and
-VCL components can be used together with similar collections
-like [SUITCSS](https://github.com/suitcss).
+a typography module and rather specific ones like a process navigation.
+Own components can easily be created as NPM modules.
 
 ## Status
 
-You can use it productively already if you are comfortable
-with changing some variable names (which can be concerned as
-the interface of components at build time) in the future.
+We have reached a **0.1.0 version level** and adhere to
+[semver](http://semver.org/). So you can use it productively.
 
 ## Getting Started
 
-See [Tutorial](https://github.com/vcl/doc/tree/master/tutorial)
+See the [tutorial](https://github.com/vcl/doc/tree/master/tutorial) on
+how to build a distribution.
+
+There is a [presentation](http://vcl.github.io/presentation/index.html)
+introducing the VCL.
 
 ## Features
 
 - Designed to style [Web Components](http://webcomponents.org/).
 - JS framework agnostic ‒ use it with Ember, Angular, you name it.
 - For ambitious mobile and desktop applications.
-- Complete [set of modules](https://github.com/vcl)
+- Broad [range of modules](https://github.com/vcl)
   to handle the bulk of styling needs.
-- Customizable through ~500 variables.
+- Customizable through ~500 variables via themes.
+- Themes are modules on its own but they can inherit fom each other.
 - Extensible through custom modules.
 - As lightweight as you want ‒ include only what you need.
 - Quick rendering through simple, low specificity selectors.
@@ -54,11 +58,12 @@ Just see [vcl-list](https://github.com/vcl/list) as a prototype.
 Have an `index.styl` or `index.css` file per module which is referenced in
 the `package.json` in the `style` property.
 
-Have the following custom fields in the package.json file:
+Have the following custom fields in the `package.json` file:
 
 - `style` points to the entry CSS file of the module.
 - `vcldoc.prio` the priority of the module within its category.
-- `vcldoc.category` the main category of the component.
+- `vcldoc.category` the main category of the component from the
+   [set of categories]().
 - `vcldoc.categoryPrio` the priority from 1..100 of this category.
 - `vcldoc.subCategory` its sub category.
 - `vcldoc.subCategoryPrio` the priority from 1..100 of this sub category.
@@ -102,19 +107,20 @@ Don’ts:
 ### Usable CSS Features
 
 Use the [flexbox based layout attributes](https://github.com/vcl/layout)
-to lay out stuff.
+to realize complex layouts.
 
 ### HTML Sample Snippets
 
 - Have a folder `demo` containing a file `example.html` and optionally more snippets.
+- Include multiple demos using HTML imports `<link rel="import"...`.
 - Snippet file must be HTML fragments without head and body tags.
 
 ### Development
 
 The following npm scripts are available:
 
-* `npm start` - starts a webserver and opens the examples (auto-reloads)
-* `npm test` - tries to preprocess this package
+* `npm start` - starts a webserver and opens the examples (auto-reloads).
+* `npm test` - tries to preprocess the code.
 
 ## Browser Compatibility
 
@@ -132,8 +138,8 @@ In general, at least the following should be supported and tested:
 
 A similar and partly compatible approach is pursued by:
 
-- atomify-css
-- suitcss
+- [atomify-css](https://github.com/atomify/atomify-css),
+- [SUITCSS](https://github.com/suitcss).
 
 ## Contributing
 
