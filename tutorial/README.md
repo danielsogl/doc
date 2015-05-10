@@ -62,7 +62,7 @@ To define search box we use the vclInputGroup component:
 ```
 <div class="vclInputGroup">
     <input autocomplete="off" type="text">
-    <span class="vclInputGroupButton"><button class="vclButtonStd vclSquare"><span><i class="fa fa-search"></i></span></button></span></div>
+    <span class="vclInputGroupButton"><button class="vclButton vclSquare"><span><i class="fa fa-search"></i></span></button></span></div>
 </div>
 ```
 
