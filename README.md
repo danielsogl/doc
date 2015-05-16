@@ -29,12 +29,13 @@ introducing the VCL.
 ## Features
 
 - Designed to style [Web Components](http://webcomponents.org/).
-- JS framework agnostic ‒ use it with Ember, Angular, you name it.
+- JS framework agnostic ‒ use it with EmberJS, Angular, you name it.
 - For ambitious mobile and desktop applications.
-- Broad [range of modules](https://github.com/vcl)
+- Collection of [core modules](https://github.com/vcl/core-modules)
   to handle the bulk of styling needs.
-- Customizable through ~500 variables via themes.
-- Themes are modules on its own but they can inherit fom each other.
+- [Default theme](https://github.com/vcl/default-theme)
+  for core modules with ~500 variables.
+- Themes are modules on its own but they can inherit from each other.
 - Extensible through custom modules.
 - As lightweight as you want ‒ include only what you need.
 - Quick rendering through simple, low specificity selectors.
@@ -49,7 +50,7 @@ introducing the VCL.
 
 ## Guidelines for writing Modules
 
-### Layout
+### Structure
 
 Just see [vcl-list](https://github.com/vcl/list) as a prototype.
 
@@ -111,7 +112,8 @@ to realize complex layouts.
 
 ### HTML Sample Snippets
 
-- Have a folder `demo` containing a file `example.html` and optionally more snippets.
+- Have a folder `demo` containing a file `example.html` and optionally more
+  snippets.
 - Include multiple demos using HTML imports `<link rel="import"...`.
 - Snippet file must be HTML fragments without head and body tags.
 
@@ -119,8 +121,8 @@ to realize complex layouts.
 
 The following npm scripts are available:
 
-* `npm start` - starts a webserver and opens the examples (auto-reloads).
-* `npm test` - tries to preprocess the code.
+* `npm start` - starts a web server and opens the examples (auto-reloads).
+* `npm test` - tries to pre-process the code.
 
 ## Browser Compatibility
 
