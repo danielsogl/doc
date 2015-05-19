@@ -62,12 +62,12 @@ the `package.json` in the `style` property.
 Have the following custom fields in the `package.json` file:
 
 - `style` points to the entry CSS file of the module.
-- `vcldoc.prio` the priority of the module within its category.
-- `vcldoc.category` the main category of the component from the
-   [set of categories]().
-- `vcldoc.categoryPrio` the priority from 1..100 of this category.
-- `vcldoc.subCategory` its sub category.
-- `vcldoc.subCategoryPrio` the priority from 1..100 of this sub category.
+- `vcl.categories` an array of categories. Example: `{ "title": "Icons", "ItemPriority": 30, "priority": 140}`
+  - `category.title` - The title of the category.
+  - `category.priority` - The priority of the whole category. Determines where the Menu entry is ordered.
+  - `category.ItemPriority`- Priority of the Item. Determines the display order of this module in its category.
+- `vcl.needs` Specifies what providers this module needs. (Most modules will need a `theme` provider.)
+- `vcl.provides` Providers of this module. Examples: `theme`, `theme-terms`, `button`
 
 The categorization is used for the documentation generator
 [doc-gen](https://github.com/vcl/doc-gen) to generate a static documentation
