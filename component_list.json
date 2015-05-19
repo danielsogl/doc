@@ -9,7 +9,7 @@
   {"name": "app-header",                           "description": "App header for wide viewports",                       "homepage": "http://vcl.github.io/app-header/demo"},
   {"name": "adv-text-structure",                   "description": "Advanced text structure",                             "homepage": "http://vcl.github.io/adv-text-structure/demo"},
   {"name": "badge",                                "description": "Badge",                                               "homepage": "http://vcl.github.io/badge/demo"},
-  {"name": "breadcrump",                           "description": "Breadcrump navigation",                               "homepage": "http://vcl.github.io/breadcrump/demo"},
+  {"name": "breadcrumb",                           "description": "Breadcrumb navigation",                               "homepage": "http://vcl.github.io/breadcrumb/demo"},
   {"name": "breakpoints",                          "description": "Breakpoints realized with custom media",              "homepage": "http://vcl.github.io/breakpoints/demo"},
   {"name": "busy-indicator",                       "description": "Busy indicator",                                      "homepage": "http://vcl.github.io/busy-indicator/demo"},
   {"name": "button",                               "description": "Button",                                              "homepage": "http://vcl.github.io/button/demo"},
