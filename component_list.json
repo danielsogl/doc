@@ -68,7 +68,7 @@
   {"name": "size-modulation",                      "description": "Size modulation utils",                               "homepage": "http://vcl.github.io/size-modulation/demo"},
   {"name": "slider",                               "description": "Slider",                                              "homepage": "http://vcl.github.io/slider/demo"},
   {"name": "spinner",                              "description": "Spinner",                                             "homepage": "http://vcl.github.io/spinner/demo"},
-  {"name": "stars",                                "description": "Stars",                                               "homepage": "http://vcl.github.io/stars/demo"},
+  {"name": "rating",                               "description": "Rating",                                              "homepage": "http://vcl.github.io/rating/demo"},
   {"name": "sum-table",                            "description": "Sum table",                                           "homepage": "http://vcl.github.io/sum-table/demo"},
   {"name": "tab-nav",                              "description": "Tab navigation",                                      "homepage": "http://vcl.github.io/tab-nav/demo"},
   {"name": "table",                                "description": "Table",                                               "homepage": "http://vcl.github.io/table/demo"},
