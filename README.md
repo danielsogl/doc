@@ -18,6 +18,11 @@ Own components can easily be created as NPM modules.
 We have reached a **0.1.0 version level** and adhere to
 [semver](http://semver.org/). So you can use it productively.
 
+## Browse all Docs and Demos
+
+On **[vcl.github.io](https://vcl.github.io/)** you can browse
+the docs and demos from all modules in the VCL org's repos.
+
 ## Getting Started
 
 See the [tutorial](https://github.com/vcl/doc/tree/master/tutorial) on
