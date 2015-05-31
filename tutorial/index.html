@@ -15,13 +15,12 @@
   <div class="vclViewport">
     <div class="vclApp">
       <header>
-        <div class="vclApplicationHeader">
+        <div class="vclApplicationHeader vclNoMargin" horizontal layout center justified>
           <div role="banner">
-            <h1 class="vclAppName">Visual Component Library</h1>
             <h1 class="vclAppName"><a href="#">VCL Blog</a></h1>
           </div>
 
-          <nav class="vclNavigation">
+          <nav class="vclNavigation vclNoMargin">
             <ul>
               <li role="presentation">
                 <a class="vclIcogram" href="#">
@@ -65,9 +64,11 @@
                  </div>
               </button>
             </div>
-            <h2 class="vclAlignCentered">Recent Posts</h2>
             <nav id="nav" class="vclNavigation vclVertical">
              <ul>
+                <li role="sectionhead" class="vclNavigationHeading">
+                  <span>Recent Posts</span>
+                </li>
                 <li role="presentation" class="vclSelected">
                   <a class="vclIcogram" href="#">
                     <span class="vclText">Blog post #1</span>
@@ -85,10 +86,13 @@
                 </li>
               </ul>
             </nav>
+
           </div>
-          <div class="vclGridSpan-12 vclAlignLeft">
-            <h2>Blog post #1</h2>
-            <hr>
+          <article class="vclArticle vclGridSpan-12">
+            <h2 class="vclArticleHeader">
+              Blog post #1
+              <small class="vclArticleSubHeader">25.06.2015</small>
+            </h2>
             <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus a magna lacinia dapibus quis sit amet felis. Etiam id ante mi. In a justo ac ipsum pretium gravida sit amet ultrices urna. Sed tempor luctus bibendum. Donec consequat ipsum eu urna mattis, at vestibulum sem porta. Integer posuere placerat ante sed tristique. Maecenas adipiscing sapien sit amet massa sollicitudin, at lobortis ante vehicula. Proin sagittis orci ut pretium fermentum. Nunc eleifend massa ut tristique placerat. Proin hendrerit luctus dui sit amet tincidunt. Nam vel auctor arcu. Quisque sit amet orci ipsum. Integer laoreet fermentum nulla, eleifend dapibus odio tincidunt sed. Vestibulum ut augue et ante sagittis ullamcorper. Nullam at ligula vitae lacus molestie ullamcorper id ac mauris. Maecenas aliquam libero purus, et suscipit felis feugiat id.</p><p>
       Sed posuere quam velit, quis consequat ante sagittis ac. Suspendisse non lectus id libero blandit volutpat. Nullam sagittis felis feugiat justo adipiscing, non volutpat elit ornare. Nunc dignissim mauris ac erat luctus rhoncus. Quisque vulputate purus turpis, luctus suscipit urna sollicitudin id. Aenean lacinia, erat at hendrerit interdum, mi nisl malesuada elit, quis mattis tellus felis in mi. Proin molestie neque ac augue adipiscing, vitae tempus ante tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec erat non augue ullamcorper bibendum.</p><p>
@@ -96,7 +100,7 @@
       Etiam commodo porttitor tellus quis fermentum. Donec lacinia magna tellus, at tempus sapien sodales in. Vestibulum scelerisque condimentum dui, lacinia convallis mi faucibus quis. Quisque nec mi aliquet, egestas turpis imperdiet, venenatis nisl. Proin vehicula ante neque, eget semper dui elementum ac. Pellentesque laoreet bibendum ultricies. Suspendisse et ullamcorper dolor. Nulla venenatis lacus mollis neque consectetur posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent et diam sit amet ante facilisis dapibus non vitae nunc. In non diam mollis, cursus neque eu, consectetur nunc.</p><p>
       Sed quis semper leo, vitae tristique sapien.
             </p>
-          </div>
+          </article>
         </div>
       </section>
       <footer class="vclApplicationFooter" role="contentinfo">
