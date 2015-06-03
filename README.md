@@ -83,6 +83,25 @@ The categorization is used for the documentation generator
 [doc-gen](https://github.com/vcl/doc-gen) to generate a static documentation
 including samples of your modules.
 
+#### Needs & Provides
+
+`vcl.needs` and `vcl.provides` are used for package ordering when using the package compile feature of the [vcl-preprocessor](https://github.com/vcl/preprocessor) which the documentation generator also uses.
+Packages that are needed by others are put before them while preprocessing.
+
+##### Example
+
+Package           | `needs`         | `provides`
+---               | ---             | ---
+vcl-button        | theme           | button
+vcl-dropdown      | theme, button   |
+vcl-default-theme |                 | theme
+
+Results in the following order:
+
+1. vcl-default-theme
+2. vcl-button
+3. vcl-dropdown
+
 ### CSS Syntax
 
 Use the [white space significant syntax](https://www.npmjs.org/package/css-whitespace)
