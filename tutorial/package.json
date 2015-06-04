@@ -2,7 +2,7 @@
   "name": "vcl-tutorial",
   "description": "VCL distribution based on the core modules",
   "scripts": {
-    "build-css": "node ./node_modules/.bin/vcl index.styl vcl.css"
+    "build-css": "node ./node_modules/.bin/vcl-preprocessor index.styl vcl.css"
   },
   "dependencies": {
     "vcl-preprocessor": "git://github.com/vcl/preprocessor.git",
