@@ -32,6 +32,8 @@ Based on [a blog](http://blog.alex-rudenko.com/2014/08/18/getting-started-with-a
 
     You should see "✔ Succesfully compiled input to vcl.css" in the terminal if everything is fine.
 
+5. Open the `index.html` to see the results. You can also run `npm start` to open it in your default browser.
+
 
 ## Styling a Web Page with the VCL
 
@@ -101,4 +103,3 @@ npm install git://github.com/vcl/gallery.git
 
     If it was successful, you should now have a folder build in vcl-gallery.
     You can now access the demo on [localhost](http://localhost:8077/example.html).
-

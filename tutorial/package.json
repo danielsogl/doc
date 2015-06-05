@@ -3,7 +3,8 @@
   "description": "VCL distribution based on the core modules",
   "scripts": {
     "build-css": "vcl index.styl vcl.css",
-    "doc-gen": "vcl-docgen"
+    "doc-gen": "vcl-docgen && opn ./vcl-documentation.html",
+    "start": "opn ./index.html"
   },
   "devDependencies": {
     "vcl-preprocessor": "vcl/preprocessor",
@@ -12,6 +13,7 @@
     "vcl-font-awesome": "vcl/font-awesome",
     "vcl-adv-text-structure": "vcl/adv-text-structure",
     "vcl-core-modules": "vcl/core-modules",
+    "opn": "^1.0.2",
     "vcl-docgen": "vcl/doc-gen"
   }
 }
