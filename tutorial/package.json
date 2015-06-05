@@ -2,14 +2,16 @@
   "name": "vcl-tutorial",
   "description": "VCL distribution based on the core modules",
   "scripts": {
-    "build-css": "node ./node_modules/.bin/vcl-preprocessor index.styl vcl.css"
+    "build-css": "vcl index.styl vcl.css",
+    "doc-gen": "vcl-docgen"
   },
-  "dependencies": {
-    "vcl-preprocessor": "git://github.com/vcl/preprocessor.git",
-    "vcl-default-theme": "git://github.com/vcl/default-theme.git",
-    "vcl-default-theme-terms": "git://github.com/vcl/default-theme-terms.git",
-    "vcl-font-awesome": "git://github.com/vcl/font-awesome.git",
-    "vcl-adv-text-structure": "git://github.com/vcl/adv-text-structure.git",
-    "vcl-core-modules": "git://github.com/vcl/core-modules.git"
+  "devDependencies": {
+    "vcl-preprocessor": "vcl/preprocessor",
+    "vcl-default-theme": "vcl/default-theme",
+    "vcl-default-theme-terms": "vcl/default-theme-terms",
+    "vcl-font-awesome": "vcl/font-awesome",
+    "vcl-adv-text-structure": "vcl/adv-text-structure",
+    "vcl-core-modules": "vcl/core-modules",
+    "vcl-docgen": "vcl/doc-gen"
   }
 }

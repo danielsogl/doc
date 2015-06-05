@@ -1,5 +1,6 @@
 .project
 .svn
+vcl-documentation.html
 build
 components
 node_modules
