@@ -21,7 +21,7 @@ We have reached a **0.1.0 version level** and adhere to
 ## Browse all Docs and Demos
 
 On **[vcl.github.io](https://vcl.github.io/)** you can browse
-the docs and demos from all modules in the VCL org's repos.
+the docs and demos from all modules in the VCL org’s repos.
 
 ## Getting Started
 
@@ -85,16 +85,19 @@ including samples of your modules.
 
 #### Needs & Provides
 
-`vcl.needs` and `vcl.provides` are used for package ordering when using the package compile feature of the [vcl-preprocessor](https://github.com/vcl/preprocessor) which the documentation generator also uses.
-Packages that are needed by others are put before them while preprocessing.
+`vcl.needs` and `vcl.provides` are used for package ordering when using the
+package compile feature of the
+[vcl-preprocessor](https://github.com/vcl/preprocessor) which is also used by
+the documentation generator.
+Packages which are needed by others are put before them while pre-processing.
 
 ##### Example
 
 Package           | `needs`         | `provides`
----               | ---             | ---
-vcl-button        | theme           | button
-vcl-dropdown      | theme, button   |
-vcl-default-theme |                 | theme
+---               | ---              | ---
+vcl-button        | theme            | button
+vcl-dropdown      | theme, button    |
+vcl-default-theme |                  | theme
 
 Results in the following order:
 
@@ -104,7 +107,8 @@ Results in the following order:
 
 ### CSS Syntax
 
-Use the [white space significant syntax](https://www.npmjs.org/package/css-whitespace)
+Use the
+[white space significant syntax](https://www.npmjs.org/package/css-whitespace)
 or plain CSS. Normal CSS files end with the `.css` suffix, white space files
 end with the `.styl` suffix.
 
@@ -113,7 +117,7 @@ end with the `.styl` suffix.
 Do’s:
 
 - `vcl` name space prefix for any class name.
-- Class names in camelCased letters (why? because it's easier to read and
+- Class names in camelCased letters (why? because it’s easier to read and
   shorter than dashes).
 - Have a single class name like `vclFlipSwitch` on the root element of the
   corresponding HTML.
@@ -132,26 +136,48 @@ Don’ts:
 - Except in rare cases, avoid the descendant selector with elements;
   i. e. don’t use `.vclComponent h3`.
 - Except in some very rare cases, avoid using `!important`.
-- Don't use vendor prefixes.
+- Don’t use vendor prefixes.
 
 ### Usable CSS Features
 
 Use the [flexbox based layout attributes](https://github.com/vcl/layout)
 to realize complex layouts.
 
+### Responsive CSS via Media Queries
+
+Try to prevent them!
+We believe that HTML structures and CSS rules should be as simple as possible
+to use and this requires them to have a deterministic behavior;
+In most cases the “automagical” nature of implicit media
+queries are awkward in many situations especially considering that
+even the most anticipating ruleset will most likely not fit your very needs.
+So we recommend to create explicit rules for every case a media query
+dependent style change should apply.
+Or when rendering on the client side (mostly with a single page
+app architecture) cretea what we call an adaptive view. This
+means to render a separate view (possibly from two templates) for each case.
+So how to prevent them?
+
+- A good way to do that is to create components which can be used
+on wide and narrow screen devices without any adaptation.
+- Offer an alternative layout (with demo) for narrow viewports. This alternative
+may be a mashup of different components.
+
 ### HTML Sample Snippets
 
 - Have a folder `demo` containing a file `example.html` and optionally more
-  snippets.
-- Include multiple demos using HTML imports `<link rel="import"...`.
-- Snippet file must be HTML fragments without head and body tags.
+  demos in other files.
+- Include multiple demos using HTML imports `<link rel="import"...`
+  in `example.html`.
+- Demo file must be HTML fragments without head and body tags.
 
 ### Development
 
 The following npm scripts are available:
 
-* `npm start` - starts a web server and opens the examples (auto-reloads).
-* `npm test` - tries to pre-process the code.
+* `npm start` - starts a web server and opens the examples
+  (watching and reloading enabled).
+* `npm test` - tries to pre-process the sources.
 
 ## Browser Compatibility
 
