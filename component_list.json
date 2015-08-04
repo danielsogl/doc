@@ -48,7 +48,7 @@
   {"name": "input-group",                          "description": "Input group",                                         "homepage": "http://vcl.github.io/input-group/demo"},
   {"name": "label",                                "description": "Label",                                               "homepage": "http://vcl.github.io/label/demo"},
   {"name": "layer",                                "description": "Layer",                                               "homepage": "http://vcl.github.io/layer/demo"},
-  {"name": "layout-attributes",                    "description": "Flexbox based layout system",                         "homepage": "http://vcl.github.io/layout-attributes/demo"},
+  {"name": "flex-layout",                          "description": "Flexbox based layout system",                         "homepage": "http://vcl.github.io/flex-layout/demo"},
   {"name": "layout-spans",                         "description": "Percentage based width spans"                         "homepage": "http://vcl.github.io/layout-spans/demo"},
   {"name": "list",                                 "description": "List",                                                "homepage": "http://vcl.github.io/list/demo"},
   {"name": "loading-layer",                        "description": "Loading layer",                                       "homepage": "http://vcl.github.io/loading-layer/demo"},
