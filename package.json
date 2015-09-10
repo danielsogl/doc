@@ -15,9 +15,7 @@
       "email": "thomas.hoppe@n-fuse.de"
     }
   ],
-  "license": {
-    "type": "MIT"
-  },
+  "license": "MIT",
   "devDependencies": {
   },
   "dependencies": {
@@ -36,5 +34,12 @@
     "categoryPrio": 1,
     "subCategory": "",
     "subCategoryPrio": 1
+  },
+  "vcl": {
+    "needs": [],
+    "provides": [
+      "doc-index"
+    ],
+    "categories": []
   }
 }
