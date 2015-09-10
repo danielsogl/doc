@@ -12,7 +12,7 @@ introducing the VCL.
 
 All modules are released in a **0.1.0 version series** and adhere to
 [semver](http://semver.org/).
-All modules with version level `>= 0.1.0` are ready for productive use.
+All modules with version level `>= 0.1.0` are ready for production use.
 
 ## Features
 
@@ -37,6 +37,7 @@ All modules with version level `>= 0.1.0` are ready for productive use.
 - Browsers compatibility is delegated to
   [Autoprefixer](https://github.com/postcss/autoprefixer).
 - Mostly independent of HTML structure and element names.
+- Generation of documention like at [vcl.github.io](https://vcl.github.io/) only for modules **you** use
 
 ## Getting Started
 
@@ -54,7 +55,7 @@ build process.
 ### Missing a Module?
 
 If you are a developer, see below how to create one.
-We are willed to add new modules to the VCL org's range of modules]
+We are willed to add new modules to the VCL org's range of modules
 if they fit.
 Otherwise [create an issue](https://github.com/vcl/doc/issues)
 in the _doc_ repo.
