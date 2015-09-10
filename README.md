@@ -1,47 +1,31 @@
 # Visual Component Library
 
-Modular and extensible CSS library for Web development today and tomorrow –
-the era of component-based Web application development.
+**Modular** and **extensible** CSS for the era of component-based
+Web application development.
 
-VCL components can be used selectively and will pull in
-dependent modules as required.
-There is quite a range of [existing modules](https://github.com/vcl/).
-The collection of
-[core modules](https://github.com/vcl/core-modules)
-roughly provide what Bootstrap offers.
-There are very generic, highly reusable styles such as
-a typography module and rather specific ones like a process navigation.
-Own components can easily be created as NPM modules.
+- Browse **[vcl.github.io](https://vcl.github.io/)** for the docs and demos
+ of all modules in the VCL org’s repos.
+- Check **[the presentation](http://vcl.github.io/presentation/index.html)**
+introducing the VCL.
 
 ## Status
 
-We have reached a **0.1.0 version level** and adhere to
-[semver](http://semver.org/). So you can use it productively.
-
-## Browse all Docs and Demos
-
-On **[vcl.github.io](https://vcl.github.io/)** you can browse
-the docs and demos from all modules in the VCL org’s repos.
-
-## Getting Started
-
-See the [tutorial](https://github.com/vcl/doc/tree/master/tutorial) on
-how to build a distribution.
-
-There is a [presentation](http://vcl.github.io/presentation/index.html)
-introducing the VCL.
+All modules are released in a **0.1.0 version series** and adhere to
+[semver](http://semver.org/).
+All modules with version level `>= 0.1.0` are ready for productive use.
 
 ## Features
 
 - Designed to style [Web Components](http://webcomponents.org/).
-- JS framework agnostic ‒ use it with EmberJS, Angular, you name it.
+- JS framework agnostic ‒ use it with EmberJS, Angular, React and the like.
 - For ambitious mobile and desktop applications.
+- Theming through modules which can inherit from each other.
 - Collection of [core modules](https://github.com/vcl/core-modules)
   to handle the bulk of styling needs.
 - [Default theme](https://github.com/vcl/default-theme)
   for core modules with ~500 variables.
-- Themes are modules on its own but they can inherit from each other.
-- Extensible through custom modules.
+- Extensible through custom modules or just project local styles.
+- Integrates seamlessly with a gulp based build process.
 - As lightweight as you want ‒ include only what you need.
 - Quick rendering through simple, low specificity selectors.
 - Maintainable & readable code with unabstracted, obvious naming conventions.
@@ -52,152 +36,31 @@ introducing the VCL.
   [color-function](http://dev.w3.org/csswg/css-color/#modifying-colors).
 - Browsers compatibility is delegated to
   [Autoprefixer](https://github.com/postcss/autoprefixer).
+- Mostly independent of HTML structure and element names.
 
-## Guidelines for writing Modules
+## Getting Started
 
-### Structure
+### Run a Module's Demos
 
-Just see [vcl-list](https://github.com/vcl/list) as a prototype.
+    $ git clone vcl/button
+    $ npm start
 
-### package.json
+### Example Project
 
-Have an `index.styl` or `index.css` file per module which is referenced in
-the `package.json` in the `style` property.
+See [the tutorial](https://github.com/vcl/doc/tree/master/tutorial) for
+how to use VCL modules in a Web project and how to make it part of its
+build process.
 
-Have the following custom fields in the `package.json` file:
+### Missing a Module?
 
-- `style` points to the entry CSS file of the module.
-- `vcl.categories` an array of categories. Example:
-  `{ "title": "Icons", "ItemPriority": 30, "priority": 140}`
-  - `category.title` - The title of the category.
-  - `category.priority` - The priority of the category.
-     Determines the ordering of the menu item.
-  - `category.ItemPriority`- Priority of the Item.
-    Determines the display order within its category.
-- `vcl.needs` Specifies what this module needs.
-  (Most modules need a `theme` provider).
-- `vcl.provides` What this module provides.
-  Examples: `theme`, `theme-terms`, `button`.
-
-The categorization is used for the documentation generator
-[doc-gen](https://github.com/vcl/doc-gen) to generate a static documentation
-including samples of your modules.
-
-#### Needs & Provides
-
-`vcl.needs` and `vcl.provides` are used for package ordering when using the
-package compile feature of the
-[vcl-preprocessor](https://github.com/vcl/preprocessor) which is also used by
-the documentation generator.
-Packages which are needed by others are put before them while pre-processing.
-
-##### Example
-
-Package           | `needs`         | `provides`
----               | ---              | ---
-vcl-button        | theme            | button
-vcl-dropdown      | theme, button    |
-vcl-default-theme |                  | theme
-
-Results in the following order:
-
-1. vcl-default-theme
-2. vcl-button
-3. vcl-dropdown
-
-### CSS Syntax
-
-Use the
-[white space significant syntax](https://www.npmjs.org/package/css-whitespace)
-or plain CSS. Normal CSS files end with the `.css` suffix, white space files
-end with the `.styl` suffix.
-
-### Selectors, Naming and Rules
-
-Do’s:
-
-- `vcl` name space prefix for any class name.
-- Class names in camelCased letters (why? because it’s easier to read and
-  shorter than dashes).
-- Have a single class name like `vclFlipSwitch` on the root element of the
-  corresponding HTML.
-- Use relative units like `em`, `rem` etc.
-- Descendants names: Apply the same naming conventions; i. e.
-  `vclDescendantName`.
-- Modifier names: `vclModifierName`.
-- In order to prevent class name collisions for descendants and modifiers,
-  use an abbreviation of the component’s name, e. g. `vclFSModifier`.
-
-Don’ts:
-
-- No element ID based selectors.
-- Avoid element name bound selectors;
-  i. e. don’t do `div.header` or `h1.title`.
-- Except in rare cases, avoid the descendant selector with elements;
-  i. e. don’t use `.vclComponent h3`.
-- Except in some very rare cases, avoid using `!important`.
-- Don’t use vendor prefixes.
-
-### Usable CSS Features
-
-Use the [flexbox based layout attributes](https://github.com/vcl/layout)
-to realize complex layouts.
-
-### Responsive CSS via Media Queries
-
-Try to prevent them!
-We believe that HTML structures and CSS rules should be as simple as possible
-to use and this requires them to have a deterministic behavior;
-In most cases the “automagical” nature of implicit media
-queries are awkward in many situations especially considering that
-even the most anticipating ruleset will most likely not fit your very needs.
-So we recommend to create explicit rules for every case a media query
-dependent style change should apply.
-Or when rendering on the client side (mostly with a single page
-app architecture) cretea what we call an adaptive view. This
-means to render a separate view (possibly from two templates) for each case.
-So how to prevent them?
-
-- A good way to do that is to create components which can be used
-on wide and narrow screen devices without any adaptation.
-- Offer an alternative layout (with demo) for narrow viewports. This alternative
-may be a mashup of different components.
-
-### HTML Sample Snippets
-
-- Have a folder `demo` containing a file `example.html` and optionally more
-  demos in other files.
-- Include multiple demos using HTML imports `<link rel="import"...`
-  in `example.html`.
-- Demo file must be HTML fragments without head and body tags.
+If you are a developer, see below how to create one.
+We are willed to add new modules to the VCL org's range of modules]
+if they fit.
+Otherwise [create an issue](https://github.com/vcl/doc/issues)
+in the _doc_ repo.
 
 ### Development
 
-The following npm scripts are available:
+See [DEVELOPMENT.md](https://github.com/vcl/doc/blob/master/DEVELOPMENT.md)
+for the mechanics and philosophy behind VCL modules.
 
-* `npm start` - starts a web server and opens the examples
-  (watching and reloading enabled).
-* `npm test` - tries to pre-process the sources.
-
-## Browser Compatibility
-
-Compatibility depends on each module and the use of the
-[Autoprefixer](https://github.com/postcss/autoprefixer).
-
-In general, at least the following should be supported and tested:
-
-- Reasonably recent Firefox builds,
-- Safari 6+,
-- Internet Explorer 10+,
-- Reasonably recent Webkit/ Blink engines and derivatives.
-
-## Related Tools
-
-A similar and partly compatible approach is pursued by:
-
-- [atomify-css](https://github.com/atomify/atomify-css),
-- [SUITCSS](https://github.com/suitcss).
-
-## Contributing
-
-PRs are welcome!

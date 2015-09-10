@@ -3,7 +3,6 @@
   "description": "",
   "version": "0.1.0",
   "main": "package.json",
-  "style": "index.styl",
   "author": {
     "name": "n-fuse GmbH",
     "email": "info@n-fuse.de",
@@ -27,14 +26,9 @@
   "keywords": [
     "css",
     "vcl",
+    "index",
     "documentation"
   ],
-  "vcldoc": {
-    "category": "",
-    "categoryPrio": 1,
-    "subCategory": "",
-    "subCategoryPrio": 1
-  },
   "vcl": {
     "needs": [],
     "provides": [
