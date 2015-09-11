@@ -17,7 +17,13 @@ Have the following custom fields in the `package.json` file:
 
 - `style` points to the entry CSS file of the module.
 - `vcl.categories` an array of categories. Example:
-  `{ "title": "Icons", "priority": 140, "ItemPriority": 30 }`
+
+    {
+      "title": "Icons",
+      "priority": 140,
+      "ItemPriority": 30
+    }
+
   - `category.title` - The title of the category.
   - `category.priority` - The priority of the category.
      Determines the ordering of the menu item.
