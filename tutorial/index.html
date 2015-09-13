@@ -15,33 +15,36 @@
   <div class="vclViewport">
     <div class="vclApp">
       <header>
-        <div class="vclApplicationHeader vclNoMargin" horizontal layout center justified>
+        <div class="vclApplicationHeader vclLayoutHorizontal vclLayoutCenter vclLayoutJustified">
           <div role="banner">
-            <h1 class="vclAppName"><a href="#">VCL Blog</a></h1>
+            <a href="#" class="vclLayoutHorizontal vclLayoutCenter">
+              <img class="vclResponsiveImage vclLogo" role="presentation" src="https://cdn.rawgit.com/vcl/gfx/master/vcl_logo_square-bw.svg">
+              <h1 class="vclAppName">Blog</h1>
+            </a>
           </div>
 
-          <nav class="vclNavigation vclNoMargin">
+          <nav class="vclNavigation">
             <ul>
-              <li role="presentation">
-                <a class="vclIcogram" href="#">
+              <li class="vclNavigationItem" role="presentation" aria-selected="false">
+                <a class="vclNavigationItemLabel vclIcogram" href="#">
                   <span class="vclIcon fa fa-home" aria-hidden="true" aria-label="home" role="img"></span>
                   <span class="vclText">Home</span>
                 </a>
               </li>
-              <li class="vclSelected">
-                <a class="vclIcogram" href="#">
+              <li class="vclNavigationItem vclSelected" role="presentation" aria-selected="true">
+                <a class="vclNavigationItemLabel vclIcogram" href="#">
                   <span class="vclIcon fa fa-envelope" aria-hidden="true" aria-label="envelope" role="img"></span>
                   <span class="vclText">Posts</span>
                 </a>
               </li>
-              <li role="presentation">
-                <a class="vclIcogram" href="#">
+              <li class="vclNavigationItem" role="presentation" aria-selected="false">
+                <a class="vclNavigationItemLabel vclIcogram" href="#">
                   <span class="vclIcon fa fa-bicycle" aria-hidden="true" aria-label="bicycle" role="img"></span>
                   <span class="vclText">Portfolio</span>
                 </a>
               </li>
-              <li role="presentation">
-                <a class="vclIcogram" href="#">
+              <li class="vclNavigationItem" role="presentation" aria-selected="false">
+                <a class="vclNavigationItemLabel vclIcogram" href="#">
                   <span class="vclIcon fa fa-paper-plane" aria-hidden="true" aria-label="paper plane" role="img"></span>
                   <span class="vclText">Contact</span>
                 </a>
@@ -69,18 +72,18 @@
                 <li role="sectionhead" class="vclNavigationHeading">
                   <span>Recent Posts</span>
                 </li>
-                <li role="presentation" class="vclSelected">
-                  <a class="vclIcogram" href="#">
+                <li class="vclNavigationItem vclSelected" role="presentation" aria-selected="true">
+                  <a class="vclNavigationItemLabel vclIcogram" href="#">
                     <span class="vclText">Blog post #1</span>
                   </a>
                 </li>
-                <li role="presentation">
-                  <a class="vclIcogram" href="#">
+                <li class="vclNavigationItem" role="presentation" aria-selected="false">
+                  <a class="vclNavigationItemLabel vclIcogram" href="#">
                     <span class="vclText">Blog post #2</span>
                   </a>
                 </li>
-                <li role="presentation">
-                  <a class="vclIcogram" href="#">
+                <li class="vclNavigationItem" role="presentation" aria-selected="false">
+                  <a class="vclNavigationItemLabel vclIcogram" href="#">
                     <span class="vclText">Blog post #3</span>
                   </a>
                 </li>
@@ -88,7 +91,7 @@
             </nav>
 
           </div>
-          <article class="vclArticle vclGridSpan-12">
+          <article class="vclContentBgColor vclGridSpan-12">
             <h2 class="vclArticleHeader">
               Blog post #1
               <small class="vclArticleSubHeader">25.06.2015</small>
