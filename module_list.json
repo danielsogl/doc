@@ -39,6 +39,7 @@
   {"name": "gallery",                              "description": "Picture gallery",                                     "homepage": "http://vcl.github.io/gallery/demo"},
   {"name": "go-to-top",                            "description": "Link to jump to the top",                             "homepage": "http://vcl.github.io/go-to-top/demo"},
   {"name": "grid",                                 "description": "Float based, fluid grid system",                      "homepage": "http://vcl.github.io/grid/demo"},
+  {"name": "nag",                                  "description": "Nag",                                                 "homepage": "http://vcl.github.io/nag/demo"},
   {"name": "navigation",                           "description": "Navigation",                                          "homepage": "http://vcl.github.io/navigation/demo"},
   {"name": "toolbar",                              "description": "Toolbar",                                             "homepage": "http://vcl.github.io/toolbar/demo"},
   {"name": "info-overlay",                         "description": "Info overlay",                                        "homepage": "http://vcl.github.io/info-overlay/demo"},
