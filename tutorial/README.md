@@ -25,7 +25,7 @@ how to style a web page with it and how to run a single component demo.
 
 4.  From the tutorial folder run the VCL preporcessor to create a VCL build:
 
-    `node ./node_modules/.bin/vcl index.styl vcl.css`
+    `node ./node_modules/.bin/vcl-preprocessor index.styl vcl.css`
 
     You should see "✔ Succesfully compiled input to vcl.css" in the terminal if everything is fine.
 
