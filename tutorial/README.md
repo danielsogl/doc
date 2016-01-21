@@ -13,7 +13,7 @@ how to style a web page with it and how to run a single component demo.
 
     `$ git clone https://github.com/vcl/doc.git && cd doc/tutorial`
 
-2. As you can see the folder contains several files and a folder:
+2.  As you can see the folder contains several files and a folder:
   * `package.json` for this tutorial containing references to all needed VCL modules.
   * `index.html` is an example website, you can use later.
   * `index.styl` is the index file which just includes other modules and files using `@import`.
@@ -41,7 +41,8 @@ is in the same directory, you should see an example blog-page.
 
 Explanation of the `index.html` file:
 First, we include our compiled version of VCL using:
-```
+
+```html
 <link rel="stylesheet" href="vcl.css">
 ```
 The top-level elements have the classes `vclViewport` and `vclApp`.
@@ -53,17 +54,20 @@ Using the CSS class `vclGridRow` we define a new row of our layout.
 Using the CSS class `vclGridSpan-3` we define that the element will take 3/15 of the width of the `vclContentArea`.
 This kind of classes is typical for fluid-grid CSS frameworks. The layout grid module has a total of 15 columns.
 The horizontal navigation menu on the top of the page is built using the `vclNavigation` class:
-```
+
+```html
 <nav class="vclNavigation">
 ```
 
 Similarly the navigation bar on the left but with the modifier class `vclVertical`:
-```
+
+```html
 <nav id="nav" class="vclNavigation vclVertical">
 ```
 
 The search input is more complex and actually a mashup of multiple VCL components:
-```
+
+```html
 <div class="vclInputGroupEmb">
   <span class="vclPrepended">
     <div class="vclIcon fa fa-search"></div>
