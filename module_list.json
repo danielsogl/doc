@@ -68,6 +68,7 @@
   {"name": "process-nav",                          "description": "Process navigation",                                  "homepage": "http://vcl.github.io/process-nav/demo"},
   {"name": "product-list",                         "description": "Product list",                                        "homepage": "http://vcl.github.io/product-list/demo"},
   {"name": "progress-bar",                         "description": "Progress bar",                                        "homepage": "http://vcl.github.io/progress-bar/demo"},
+  {"name": "select",                               "description": "Select form control",                                 "homepage": "http://vcl.github.io/select/demo"},
   {"name": "size-modulation",                      "description": "Size modulation utils",                               "homepage": "http://vcl.github.io/size-modulation/demo"},
   {"name": "slider",                               "description": "Slider",                                              "homepage": "http://vcl.github.io/slider/demo"},
   {"name": "spinner",                              "description": "Spinner",                                             "homepage": "http://vcl.github.io/spinner/demo"},
