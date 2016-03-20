@@ -8,14 +8,13 @@
   },
   "devDependencies": {
     "opn": "^1.0.2",
-    "vcl-preprocessor": "vcl/preprocessor",
-    "vcl-default-theme": "vcl/default-theme",
-    "vcl-default-theme-terms": "vcl/default-theme-terms",
-    "normalize.css": "^3.0.2",
-    "vcl-font-awesome": "vcl/font-awesome",
-    "vcl-adv-text-structure": "vcl/adv-text-structure",
-    "vcl-core-modules": "vcl/core-modules",
-    "vcl-doc-gen": "vcl/doc-gen"
+    "vcl-preprocessor": "^0.1.0",
+    "vcl-default-theme": "^0.1.0",
+    "vcl-default-theme-terms": "^0.1.0",
+    "normalize.css": "^4.0.0",
+    "vcl-font-awesome": "^0.1.0",
+    "vcl-adv-text-structure": "^0.1.0",
+    "vcl-core-modules": "^0.1.0",
+    "vcl-doc-gen": "^0.1.0"
   }
 }
-
