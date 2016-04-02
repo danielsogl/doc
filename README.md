@@ -1,6 +1,6 @@
 # Visual Component Library
 
-[![Join the chat at https://gitter.im/vcl/doc](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vcl/doc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/vcl](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vcl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 **Modular** and **extensible** CSS for the era of component-based
 Web application development.
