@@ -14,22 +14,26 @@ how to style a web page with it and how to run a single component demo.
     `$ git clone https://github.com/vcl/doc.git && cd doc/tutorial`
 
 2.  As you can see the folder contains several files and a folder:
-  * `package.json` for this tutorial containing references to all needed VCL modules.
+  * `package.json` for this tutorial listing all required VCL and other NPM modules.
   * `index.html` is an example website, you can use later.
   * `index.styl` is the index file which just includes other modules and files using `@import`.
   * `vcl-custom.styl` is a file where one can add custom rules or override VCL rules.
   * `vcl-var-override.styl` is a file where variables of VCL modules can be re-defined before they are compiled.
 
-3.  Open a terminal and execute `npm install` from the tutorial folder.
+3.  Open a terminal and execute `npm install` from the `tutorial` folder.
     After that a folder `node_modules` is created which contains all VCL modules specified in the `package.json`.
 
-4.  From the tutorial folder run the VCL preporcessor to create a VCL build:
+4.  Install the vcl-preprocessor command line tool:
 
-    `node ./node_modules/.bin/vcl-preprocessor index.styl vcl.css`
+    `npm install -g vcl-preprocessor`
+
+5.  From the tutorial folder run the VCL preprocessor to create a VCL build:
+
+    `vcl-preprocessor index.styl vcl.css`
 
     You should see "✔ Succesfully compiled input to vcl.css" in the terminal if everything is fine.
 
-5. Open the `index.html` to see the results. You can also run `npm start` to open it in your default browser.
+6. Open the `index.html` to see the results. You can also run `npm start` to open it in your default browser.
 
 
 ## Styling a Web Page with the VCL
