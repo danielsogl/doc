@@ -7,14 +7,14 @@
     "start": "opn ./index.html"
   },
   "devDependencies": {
-    "opn": "^1.0.2",
-    "vcl-preprocessor": "^0.1.0",
-    "vcl-default-theme": "^0.1.0",
-    "vcl-default-theme-terms": "^0.1.0",
-    "normalize.css": "^4.0.0",
-    "vcl-font-awesome": "^0.1.0",
+    "normalize.css": "^6.0.0",
+    "opn-cli": "^3.1.0",
     "vcl-adv-text-structure": "^0.1.0",
-    "vcl-core-modules": "^0.1.0",
-    "vcl-doc-gen": "^0.1.0"
+    "vcl-core-modules": "^0.1.4",
+    "vcl-default-theme": "^0.1.3",
+    "vcl-default-theme-terms": "^0.1.0",
+    "vcl-doc-gen": "^0.1.2",
+    "vcl-font-awesome": "^0.1.0",
+    "vcl-preprocessor": "^0.1.1"
   }
 }

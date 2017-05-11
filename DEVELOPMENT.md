@@ -123,7 +123,7 @@ Apart from that, try to stick to the browser compatibility statement below.
 
 ## Box-sizing
 
-We do no `* { box-sizing: border-box; }` but of course anything that has
+We do **not** `* { box-sizing: border-box; }` but of course anything that has
 a border on the left/ right side and may have a width of 100% gets it.
 For example the layout grid or input controls.
 
@@ -192,16 +192,15 @@ the default theme as done in the
 
 # Browser Compatibility
 
-Compatibility differs on module level and depends on the use of the
+Compatibility differs on module level and is delegated to
 [Autoprefixer](https://github.com/postcss/autoprefixer).
 
 In general, at least the following should be supported and tested:
 
 - Reasonably recent Firefox builds,
-- Internet Explorer 10+,
+- Internet Explorer 11 and up,
 - Reasonably recent Webkit/ Blink engines and derivatives.
-
-Plus their mobile variants.
+- Plus their mobile variants.
 
 # Related Tools
 
