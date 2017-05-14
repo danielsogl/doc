@@ -32,7 +32,7 @@ All modules with version level `>= 0.1.0` are ready for production use.
 - Quick rendering through simple, low specificity selectors.
 - Maintainable & readable code with unabstracted, obvious naming conventions.
 - Relative units like `em` (Elements) are used wherever feasible.
-- Powered by the [rework](https://github.com/reworkcss)
+- Powered by the [postcss](http://postcss.org)
   and [npm](https://www.npmjs.org/) eco systems.
 - CSS level 4 features like the
   [color-function](http://dev.w3.org/csswg/css-color/#modifying-colors).
