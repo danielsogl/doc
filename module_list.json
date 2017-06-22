@@ -60,7 +60,6 @@
   {"name": "loose-button-group",                   "description": "Loose button group",                                  "homepage": "https://vcl.github.io/#vcl-loose-button-group"},
   {"name": "material-design-icons",                "description": "Material design icons integration",                   "homepage": "https://vcl.github.io/#vcl-material-design-icons"},
   {"name": "notification",                         "description": "Notification",                                        "homepage": "https://vcl.github.io/#vcl-notification"},
-  {"name": "transitions",                          "description": "Transitions",                                         "homepage": "https://vcl.github.io/#vcl-transitions"},
   {"name": "pager",                                "description": "Pager",                                               "homepage": "https://vcl.github.io/#vcl-pager"},
   {"name": "pagination",                           "description": "Pagination",                                          "homepage": "https://vcl.github.io/#vcl-pagination"},
   {"name": "panel",                                "description": "Panel",                                               "homepage": "https://vcl.github.io/#vcl-panel"},
