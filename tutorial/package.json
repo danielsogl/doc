@@ -15,6 +15,7 @@
     "@vcl/default-theme-terms": "^0.2.0",
     "@vcl/doc-gen": "^0.2.2",
     "@vcl/font-awesome": "^0.2.0",
+    "@vcl/doc": "vcl/doc",
     "@vcl/preprocessor": "^0.2.2"
   }
 }
