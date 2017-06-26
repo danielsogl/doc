@@ -12,7 +12,7 @@ introducing the VCL.
 
 ## Status
 
-All modules are released in a **0.1.0 version series** and adhere to
+The current modules are released in the **0.2.x version series** and adhere to
 [semver](http://semver.org/).
 All modules with version level `>= 0.1.0` are ready for production use.
 
